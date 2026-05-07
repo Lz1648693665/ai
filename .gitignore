@@ -1,0 +1,8 @@
+devpilot-server/target/
+devpilot-server/data/
+devpilot-server/logs/
+devpilot-server/.mvn/wrapper/maven-wrapper.jar
+
+.idea/
+.vscode/
+*.iml
