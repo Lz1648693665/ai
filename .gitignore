@@ -1,8 +1,30 @@
+# Frontend logs and build output
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+node_modules
+dist
+dist-ssr
+*.local
+
+# Backend local output
 devpilot-server/target/
 devpilot-server/data/
 devpilot-server/logs/
 devpilot-server/.mvn/wrapper/maven-wrapper.jar
 
-.idea/
-.vscode/
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
 *.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
